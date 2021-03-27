@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+
+html{
+    font-size: 62.5%;
+}
+
 h1{
     font-size: 2.8rem;
 }
 
-html{
-    font-size: 62.5%;
+p{
+    font-size: 1.8rem;
 }
 
 .main-head{
@@ -100,3 +105,102 @@ form button:hover{
     background: black;
 }
 
+
+#display{
+    min-height: 90vh;
+    
+}
+
+.hero{
+    min-height: 10vh;
+    background: #131c27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heroh1{
+   
+}
+
+.hero h1{
+    color: white;
+    padding: 2rem 0rem;
+
+}
+.herop{
+
+}
+.herop p{
+    color: white;
+    padding: 2rem 0rem;
+    animation: textAnimation 20s infinite ease-out;
+}
+
+@keyframes textAnimation{
+    from{
+        transform: translate(-200%);
+    }
+    to{
+        transform: translate(200%);
+    }
+}
+
+.display-div{
+    min-height: 70vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.mealContainer{
+    min-height: 50vh;
+    margin: 2rem 5rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dishContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dishDetail{
+    display: flex;
+    
+    
+}
+
+.tableNum{
+    margin-right: 2rem;
+}
+
+.dishName{
+    
+}
+
+img{
+    width: 100%;
+}
+
+.imageContainer{
+    
+}
+
+.buttonContainer{
+    position: absolute;
+    bottom: 0px;
+}
+
+.button{
+    border: none;
+    color: whitesmoke;
+    padding: 1rem;
+    background: #131c27;
+    width: 100%;
+
+}
